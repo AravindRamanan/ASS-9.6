@@ -91,41 +91,39 @@ SQL :
 ------------------------------------------------------------------------------------------------------------------------------------------
 5. Explain the scalar data types in pig
 
+The scalar Data Types in pig are
+1.Int
+2.Long
+3.Float
+4.Doublr
+5.Chararray
+6.Bytearray
 
 
+1.Int:
 
+It is like integer datatype in java. Int are represented in interfaces by java.lang.Integer. They store a four-byte signed integer. Constant integers are expressed as integer numbers, for example, 42.
 
+2.long:
 
+It is like Long datatype in java. Longs are represented in interfaces by java.lang.Long. They store an eight-byte signed integer. Constant longs are expressed as integer numbers with an L appended, for example, 5000000000L.
 
+3.float:
 
+It is like integer datatype in java A floating-point number. Floats are represented in interfaces by java.lang.Float and use four bytes to store their value.  Since this is a floating-point number, in some calculations it will lose precision. For calculations that require no loss of precision, you should use an int or long instead. Constant floats are expressed as a floating-point number with an f appended. Floating-point numbers can be expressed in simple format, 3.14f, or in exponent format, 6.022e23f.
 
+4.double:
 
+A double-precision floating-point number. Doubles are represented in interfaces by java.lang.Double and use eight bytes to store their value. You can find the range of values representable by Java’s Double type. Note that because this is a floating-point number, in some calculations it will lose precision. For calculations that require no loss of precision, you should use an int or long instead. Constant doubles are expressed as a floating-point number in either simple format, 2.71828, or in exponent format, 6.626e-34.
 
+5.chararray:
 
+ A string or character array. Chararrays are represented in interfaces by java.lang.String. Constant chararrays are expressed as string literals with single quotes, for example, 'fred'. In addition to standard alphanumeric and symbolic characters, you can express certain characters in chararrays by using backslash codes, such as \t for Tab and \n for Return. Unicode characters can be expressed as \u followed by their four-digit hexadecimal Unicode value. For example, the value for Ctrl-A is expressed as \u0001.
 
+6.bytearray:
 
+A blob or array of bytes. Bytearrays are represented in interfaces by a Java class DataByteArraythat wraps a Java byte[]. There is no way to specify a constant bytearray.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 
